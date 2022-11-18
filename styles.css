@@ -355,3 +355,12 @@ figure {
 	margin: 0;
 	text-align: center;
 }
+
+@media (max-width: 1200px) {
+	.menu-container > .front-menu {
+		transform: rotateY(-180deg);
+	}
+	.menu-container > .menu {
+		transform: rotateY(0deg);
+	}
+}
